@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- start the form -->
+    <section class="contact-form">
+        <h1>Contact Us</h1>
+        <form name="form1" action="data.php" method="">
+            <div class="contact-input">
+                <label for="name">First Name</label>
+                <input id="name" name="t2" type="text" placeholder="UserName"  required>
+            </div>
+
+            <div class="contact-input">
+                <label for="name">Last Name</label>
+                <input id="name" name="t2" type="text" placeholder="UserName"  required>
+            </div>
+
+            <div class="contact-input">
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="Email" required>
+            </div>
+
+            <div class="contact-input">
+                <label for="password">password</label>
+                <input id="password" name="t3" type="password" placeholder="###########">
+            </div>
+
+            <div class="contact-input">
+                <label for="password">Confirm Password</label>
+                <input id="password" name="t4" placeholder="###########" type="password" required>
+            </div>
+            <button class="send" value="Submit" type="button" onclick="return Submit();">Submit</button>
+            </form>
+            </section>
+            <!-- end the form -->
+         
+    <script src="main.js"></script>
+</body>
+</html>
